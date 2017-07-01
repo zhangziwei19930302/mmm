@@ -1,0 +1,92 @@
+.getsshopcontain .containheader {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #DADADA;
+  font-size: 16px;
+  position: relative;
+}
+.getsshopcontain .containheader .filter {
+  display: inline-block;
+  width: 90%;
+  height: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.getsshopcontain .containheader .filter ul {
+  height: 100%;
+  overflow: hidden;
+  line-height: 37px;
+}
+.getsshopcontain .containheader .filter ul li {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+.getsshopcontain .containheader .filter ul li a {
+  display: inline-block;
+}
+.getsshopcontain .containheader .filter ul li a i {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../images/xiaosanjiao.svg");
+  background-size: 22px 22px;
+  background-position: center center;
+  vertical-align: middle;
+}
+.getsshopcontain .containheader .search {
+  width: 10%;
+  height: 37px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 1px solid #DADADA;
+  border-bottom: 1px solid #ccc;
+}
+.getsshopcontain .containheader .search .icon-list {
+  line-height: 37px;
+  font-size: 22px;
+}
+.getsshopcontain .containheader .chooseshop,
+.getsshopcontain .containheader .choosearea {
+  z-index: 10;
+  display: none;
+  position: absolute;
+  width: 100%;
+  background-color: white;
+}
+.getsshopcontain .containheader .chooseshop ul,
+.getsshopcontain .containheader .choosearea ul {
+  box-shadow: 0 5px 10px #E1E1E1;
+}
+.getsshopcontain .containheader .chooseshop ul li,
+.getsshopcontain .containheader .choosearea ul li {
+  border-bottom: 1px solid #DADADA;
+  padding: 0 10px;
+  line-height: 40px;
+}
+.getsshopcontain .containheader .show {
+  display: block !important;
+}
+.getsshopcontain .goodsList {
+  display: inline-block;
+  background-color: #F1F1F1;
+}
+.getsshopcontain .goodsList ul {
+  display: inline-block;
+}
+.getsshopcontain .goodsList ul li {
+  float: left;
+  width: 50%;
+  height: 220px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.getsshopcontain .goodsList ul li a {
+  margin: 4px;
+  display: inline-block;
+  background-color: white;
+}
+.getsshopcontain .goodsList ul li a .pic img {
+  width: 145px;
+  height: 145px;
+}

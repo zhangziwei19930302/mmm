@@ -1,0 +1,99 @@
+.bannerList {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 5px solid #F7F7F7;
+}
+.bannerList ul {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+.bannerList ul li {
+  margin-top: 20px;
+  width: 25%;
+  float: left;
+}
+.bannerList ul li a {
+  display: inline-block;
+}
+.bannerList ul li a img {
+  width: 50px;
+  height: 50px;
+}
+.bannerList ul li a p {
+  color: #5a5a5a;
+  margin-top: 3px;
+  font-size: 13px;
+}
+.bannerList ul .show {
+  display: block !important;
+}
+.bannerList ul li:nth-of-type(n+9) {
+  display: none;
+}
+.recommend {
+  width: 100%;
+  position: relative;
+}
+.recommend .recommendhead {
+  height: 35px;
+  background-color: #FF9B18;
+  line-height: 35px;
+}
+.recommend .recommendhead span {
+  padding-left: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.recommend .recommendhead i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../../images/more.png");
+  background-size: 20px 20px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.recommend .recommendlist {
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  margin-top: 14px;
+}
+.recommend .recommendlist .listItem .img {
+  float: left;
+}
+.recommend .recommendlist .listItem .img img {
+  width: 100px;
+  height: 100px;
+}
+.recommend .recommendlist .listItem .info {
+  display: inline;
+  padding-left: 110px;
+}
+.recommend .recommendlist .listItem .info .title {
+  min-height: 57px;
+  color: #333;
+  font-size: 15px;
+  line-height: 19px;
+}
+.recommend .recommendlist .listItem .info .title .redcolor {
+  color: #FF6C00;
+}
+.recommend .recommendlist .listItem .info .other {
+  margin-top: 8px;
+  color: #a1a1a1;
+}
+.recommend .recommendlist .listItem .info .other > span:nth-of-type(2) {
+  margin-left: 15px;
+}
+.recommend .recommendlist .listItem .info .other > span:nth-of-type(2) i {
+  margin-right: 5px;
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  background: url("../../images/comment.svg");
+  vertical-align: middle;
+}

@@ -1,0 +1,106 @@
+.productListhead {
+  height: 30px;
+  background-color: #F3F3F3;
+  border: 1px solid #E6E6E6;
+  line-height: 30px;
+  padding: 0 5px;
+  font-size: 14px;
+  background: url("../../images/bg.png");
+}
+.productListhead .headright input {
+  width: 55px;
+  height: 23px;
+  border-radius: 5px;
+  background-color: #DFDFDF;
+  font-size: 14px;
+}
+.productList {
+  overflow: hidden;
+}
+.productList .itemList {
+  display: inline-block;
+}
+.productList .itemList a {
+  display: inline-block;
+}
+.productList .itemList a .pic {
+  width: 30%;
+}
+.productList .itemList a .pic img {
+  height: 100px;
+}
+.productList .itemList a .content {
+  width: 70%;
+  padding-left: 8px;
+  padding-top: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.productList .itemList a .content p {
+  padding-top: 5px;
+  color: #EF3C42;
+}
+.productList .itemList a .content span {
+  display: inline-block;
+  margin-top: 15px;
+  padding-right: 5px;
+}
+.page {
+  height: 50px;
+  width: 100%;
+  background-color: #F2F2F2;
+  position: relative;
+}
+.page .pageNum {
+  display: inline-block;
+  width: 75px;
+  height: 35px;
+  position: absolute;
+  top: 10px;
+  left: 120px;
+  border: 1px solid #BABABA;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+.page .pageNum strong {
+  display: inline-block;
+  width: 68px;
+  border: 1px solid red;
+  position: absolute;
+  left: 3px;
+  background-color: #cccccc;
+  line-height: 35px;
+}
+.page .pageNum strong em {
+  display: inline-block;
+  width: 100%;
+  height: 35px;
+}
+.page .pageNum i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: url("../../images/xiaosanjiao.png");
+  position: absolute;
+  top: 12px;
+  right: 8px;
+}
+.page input {
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background: url("../../images/bg1.png");
+}
+.page > input:first-of-type {
+  float: left;
+  margin-left: 10px;
+}
+.page > input:last-of-type {
+  float: right;
+  margin-right: 10px;
+}

@@ -1,0 +1,100 @@
+.getsshopcontain{
+  .containheader{
+    //height: 37px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #DADADA;
+    font-size: 16px;
+    position: relative;
+    .filter{
+      display: inline-block;
+      width: 90%;
+      height: 100%;
+      border-bottom: 1px solid #ccc;
+      ul{
+        height: 100%;
+        overflow: hidden;
+        line-height: 37px;
+        li{
+          width: 33%;
+          float: left;
+          text-align: center;
+          a{
+            display: inline-block;
+            i{
+              display: inline-block;
+              width: 24px;
+              height: 24px;
+              background-image: url("../../images/xiaosanjiao.svg");
+              background-size: 22px 22px;
+              background-position: center center;
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+    }
+    .search{
+      width: 10%;
+      height: 37px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      border-left: 1px solid #DADADA;
+      border-bottom: 1px solid #ccc;
+      .icon-list{
+        line-height: 37px;
+        font-size: 22px;
+      }
+    }
+    .chooseshop,.choosearea{
+      z-index: 10;
+      display: none;
+      position: absolute;
+      width: 100%;
+      background-color: white;
+      ul{
+        li{
+          border-bottom: 1px solid #DADADA;
+          padding: 0 10px;
+          line-height: 40px;
+        }
+        box-shadow: 0 5px 10px #E1E1E1;
+      }
+
+    }
+    .show{
+      display: block !important;
+    }
+  }
+  .goodsList{
+    display: inline-block;
+    background-color: #F1F1F1;
+    ul{
+      display: inline-block;
+
+      li{
+        float: left;
+        width: 50%;
+        height: 220px;
+        text-align: center;
+        //border: 1px solid #cccccc;
+        box-sizing: border-box;
+        a{
+          margin: 4px;
+          display: inline-block;
+          background-color: white;
+          .pic{
+            img{
+              width: 145px;
+              height: 145px;
+            }
+          }
+          .other{
+            //padding: 6px;
+          }
+        }
+      }
+    }
+  }
+}

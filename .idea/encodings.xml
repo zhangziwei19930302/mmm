@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/models/details/details.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/models/getcoupon/getcoupon.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/models/getcoupon/getcoupon.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/models/getgsshop/getgsshop.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/models/productList/productList.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/models/sort/sort.js" charset="UTF-8" />
+  </component>
+</project>

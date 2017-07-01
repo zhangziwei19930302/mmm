@@ -1,0 +1,160 @@
+.productListhead{
+  //width: 100%;
+  height: 30px;
+  background-color: #F3F3F3;
+  border: 1px solid #E6E6E6;
+  line-height: 30px;
+  padding: 0 5px;
+  font-size: 14px;
+  background: url("../../images/bg.png");
+  .headleft{
+
+  }
+  .headright{
+    input{
+      width: 55px;
+      height: 23px;
+      //border: 1px solid #a1a1a1;
+      border-radius: 5px;
+      background-color: #DFDFDF;
+      font-size: 14px;
+
+    }
+  }
+}
+
+.detail{
+  position: relative;
+  text-align: center;
+  .describe{
+    margin-top: 10px;
+    line-height: 20px;
+  }
+  .pic{
+    a{
+      img{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+
+      }
+    }
+  }
+}
+
+.tab-contain{
+  text-align: center;
+  //line-height: 28px;
+  #tabs{
+    overflow: hidden;
+    border-bottom: 1px solid #CD6508;
+    border-top: 1px solid #CD6508;
+    li{
+
+      width: 33%;
+      height: 28px;
+      line-height: 28px;
+      float: left;
+      background-color: #FFC72F;
+      border-right: 1px solid #CD6508;
+      font-size: 14px;
+      a{
+        color: white;
+        font-weight: 400;
+      }
+    }
+    >li:last-of-type {
+      border-right:none;
+    }
+    .current{
+      background-color: #FF9C1B;
+    }
+  }
+  #content{
+      .item{
+        display: none;
+      }
+      .show{
+        display: block;
+      }
+      .compare{
+        border-bottom: 1px solid #C8C8C8;
+        line-height: 40px;
+        height: 40px;
+        //background-color: yellowgreen;
+        .compareLeft{
+          margin-left: 10px;
+          float: left;
+          font-size: 16px;
+          display: inline-block;
+          i{
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background: url("../../images/13.png");
+          }
+        }
+        .compareRight{
+          margin-right: 10px;
+          float: right;
+          display: inline-block;
+          font-size: 14px;
+
+          >span:first-of-type{
+            color: #DB1C29;
+            margin-right: 5px;
+          }
+          >span:last-of-type{
+            line-height: 24px;
+            display: inline-block;
+            width: 50px;
+            height: 24px;
+            background-color: #FF5500;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid #FF5500;
+          }
+        }
+      }
+      .note{
+        margin-top: 5px;
+        line-height: 25px;
+      }
+      .commentList{
+
+        .commenthead{
+          height: 35px;
+          width: 100%;
+          line-height: 35px;
+          background-color: #DBDBDB;
+          text-align: center;
+          color: #000000;
+        }
+        .commentcontent{
+
+          padding: 10px;
+          >span:first-of-type{
+            float: left;
+          }
+          >span:last-of-type{
+           float: right;
+          }
+          p{
+            clear: both;
+            text-align: right;
+
+          }
+        }
+        .commentnote{
+          border-bottom: 2px solid #D3D3D3;
+          >p{
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+
+}
